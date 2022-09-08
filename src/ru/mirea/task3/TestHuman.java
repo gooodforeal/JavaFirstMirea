@@ -2,8 +2,8 @@ package ru.mirea.task3;
 
 
 class Head {
-    String eyeColor;
-    int hairLength;
+    private String eyeColor;
+    private int hairLength;
 
     Head(String argEyeColor, int argHairLength) {
         eyeColor = argEyeColor;
@@ -28,8 +28,8 @@ class Head {
 }
 
 class Arm {
-    int length;
-    int width;
+    private int length;
+    private int width;
 
     Arm(int argLength, int argWidth) {
         length = argLength;
@@ -54,8 +54,8 @@ class Arm {
 }
 
 class Body {
-    int waistLength;
-    int breastLength;
+    private int waistLength;
+    private int breastLength;
 
     Body(int argWaistLength, int argBreastLength) {
         waistLength = argWaistLength;
@@ -80,7 +80,7 @@ class Body {
 }
 
 class Leg {
-    int size;
+    private int size;
 
     Leg(int argSize) {
         size = argSize;
@@ -96,12 +96,12 @@ class Leg {
 }
 
 class Human {
-    int height;
-    int weight;
-    Head head;
-    Body body;
-    Arm leftArm, rightArm;
-    Leg leftLeg, rightLeg;
+    private int height;
+    private int weight;
+    private Head head;
+    private Body body;
+    private Arm leftArm, rightArm;
+    private Leg leftLeg, rightLeg;
 
     Human(Head argHead, Body argBody, Arm argLeftArm,
           Arm argRightArm, Leg argLeftLeg, Leg argRightLeg, int argHeight, int argWeight) {

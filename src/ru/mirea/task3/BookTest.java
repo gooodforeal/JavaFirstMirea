@@ -2,10 +2,10 @@ package ru.mirea.task3;
 
 
 class Book {
-    String name;
-    String author;
-    int year;
-    int pages;
+    private String name;
+    private String author;
+    private int year;
+    private int pages;
 
     Book(String argName, String argAuthor, int argYear, int argPages) {
         name = argName;

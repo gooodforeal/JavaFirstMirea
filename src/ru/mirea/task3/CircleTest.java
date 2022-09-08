@@ -1,7 +1,7 @@
 package ru.mirea.task3;
 
 class Circle {
-    double radius;
+    private double radius;
 
     Circle(double argRadius) {
         radius = argRadius;

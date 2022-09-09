@@ -60,13 +60,13 @@ public class App {
         System.out.println("ЗАДАНИЕ [6]:");
         int[] randomIntArray = new int[10];
         int randomIntTemp;
+        Random rnd = new Random();
         System.out.print("[-] Рандомные числа: ");
         for (int j = 0; j < randomIntArray.length; j++) {
             if (j % 2 == 0) {
                 randomIntTemp = (int) (Math.random() * 100);
             }
             else {
-                Random rnd = new Random();
                 randomIntTemp = rnd.nextInt(100);
 
             }

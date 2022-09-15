@@ -120,8 +120,8 @@ class Square extends Shape {
     }
 }
 
-/*public class TestShape {
-    public static void main(String[] args) {
+public class TestShape {
+   /* public static void main(String[] args) {
         Shape s1 = new Circle(5.5, "RED", false); // Upcast Circle to Shape
         System.out.println(s1); // which version?
         System.out.println(s1.getArea()); // which version?
@@ -168,7 +168,7 @@ class Square extends Shape {
         System.out.println(sq1.getColor());
         System.out.println(sq1.getSide());
         System.out.println(sq1.getLength());
-    }
+    }*/
 }
 
- */
+

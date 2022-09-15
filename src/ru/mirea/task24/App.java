@@ -14,8 +14,8 @@ public class App {
         // Checking
         if (ipHandler.isValid(inputIP)) {
             System.out.println("[+] Your ip is valid!");
-        }
-        else {
+        } else {
             System.out.println("[+] Your ip is invalid!");
         }
     }
+}
